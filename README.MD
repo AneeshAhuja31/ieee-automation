@@ -399,24 +399,24 @@ Meet the engineering team behind this automation revolution:
 
 ---
 
-## Future Roadmap
+//## Future Roadmap
 
-### Upcoming Enhancements
+//### Upcoming Enhancements
 
-- **Multi-Platform Integration**: Facebook, LinkedIn, Twitter scraping capabilities
-- **Advanced AI Models**: GPT-4 Vision integration for enhanced accuracy
-- **Real-time Processing**: WebSocket-based live event updates
-- **Analytics Dashboard**: Comprehensive event performance metrics
-- **Mobile Application**: React Native app for administrative control
-- **Webhook Integration**: Real-time frontend notifications
+//- **Multi-Platform Integration**: Facebook, LinkedIn, Twitter scraping capabilities
+//- **Advanced AI Models**: GPT-4 Vision integration for enhanced accuracy
+//- **Real-time Processing**: WebSocket-based live event updates
+//- **Analytics Dashboard**: Comprehensive event performance metrics
+//- **Mobile Application**: React Native app for administrative control
+//- **Webhook Integration**: Real-time frontend notifications
 
-### Performance Optimizations
+//### Performance Optimizations
 
-- **Caching Layer**: Redis integration for response optimization
-- **Batch Processing**: Parallel post analysis for improved throughput
-- **Edge Computing**: CDN-based processing for global performance
-- **Machine Learning**: Custom model training for IEEE-specific content
+//- **Caching Layer**: Redis integration for response optimization
+//- **Batch Processing**: Parallel post analysis for improved throughput
+//- **Edge Computing**: CDN-based processing for global performance
+//- **Machine Learning**: Custom model training for IEEE-specific content
 
----
+
 
 
