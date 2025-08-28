@@ -33,6 +33,7 @@ async def analyse_jsons(request: JSONList):
                 if not insert_in_motor["success"]:
                     raise HTTPException(status_code=400, detail="Motor issue")
                 cleaned_json_list.append(llm_response_dict)
+                print(f"Extracted JSON: ", llm_response_dict)
                 continue  
 
             is_duplicate = False
@@ -53,5 +54,4 @@ async def analyse_jsons(request: JSONList):
             else:
                 print(f"Skipping duplicate event: {llm_response_dict['title']}")
 
-        print(f"Extracted JSON: ", llm_response_dict)
     return JSONResponse(content=cleaned_json_list)

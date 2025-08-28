@@ -1,0 +1,10 @@
+analyser==0.1.0
+cloudinary==1.44.0
+fastapi==0.116.1
+httpx==0.28.1
+langchain_core==0.3.75
+langchain_google_genai==2.1.10
+motor==3.7.1
+pydantic==2.11.7
+python-dotenv==1.1.1
+Requests==2.32.5
