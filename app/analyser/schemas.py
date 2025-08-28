@@ -19,4 +19,8 @@ class EventInfo(BaseModel):
     registrationType: Optional[str] = None
     actionLinks: Optional[List[str]] = None
     prizes: Optional[List[str]] = None
+    description: Optional[str] = None
     isRelevant: bool
+
+class IsSame(BaseModel):
+    isSame:bool
