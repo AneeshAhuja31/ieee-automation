@@ -49,7 +49,7 @@ The system operates on a **daily cron schedule**, ensuring continuous content sy
 
 ---
 
-## 🛠 Advanced Architecture & Tech Stack
+## Advanced Architecture & Tech Stack
 
 This system leverages cutting-edge technologies to deliver enterprise-grade automation capabilities.
 
