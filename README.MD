@@ -391,7 +391,7 @@ Meet the engineering team behind this automation revolution:
     <br />
     <sub><b>Rajveer Singh</b></sub>
     <br />
-    <sub><b>Vice Chairperson - Web Development</b></sub>
+    <sub><b>Vice Chairperson - Web Dev</b></sub>
   </a>
 </td>
 </tr>
