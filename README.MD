@@ -139,7 +139,7 @@ class APIKeyManager:
 
 ---
 
-## 🔧 Advanced Features & Capabilities
+## Advanced Features & Capabilities
 
 ### Core Automation Features
 
@@ -301,94 +301,6 @@ Processes a batch of Instagram posts and returns classified event data.
   }
 ]
 ```
-
-### Integration Guidelines
-
-For frontend applications consuming this API:
-
-1. **Polling Strategy**: Implement daily polling or webhook integration
-2. **Caching**: Cache responses for performance optimization
-3. **Error Handling**: Implement retry logic for network failures
-4. **Data Validation**: Validate response schema on client side
-
----
-
-## Automated Deployment & Scheduling
-
-### Cron Job Configuration
-
-For production deployment, configure the system to run daily:
-
-```bash
-# Daily execution at 6:00 AM
-0 6 * * * /path/to/venv/bin/python /path/to/ieee-automation/working.py
-
-# Alternative: Weekly execution every Monday
-0 6 * * 1 /path/to/venv/bin/python /path/to/ieee-automation/working.py
-```
-
-
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-
-COPY . .
-CMD ["uvicorn", "app.app:app", "--host", "0.0.0.0", "--port", "8000"]
-```
-
-### Cloud Deployment Options
-
-- **AWS Lambda**: Serverless execution with CloudWatch Events
-- **Google Cloud Functions**: Event-driven processing
-- **Azure Functions**: Timer-triggered automation
-- **Railway/Heroku**: Container-based deployment
-
----
-
-## System Performance & Monitoring
-
-### Performance Metrics
-
-| Metric                  | Target Performance | Current Achievement |
-| ----------------------- | ------------------ | ------------------- |
-| **Processing Speed**    | < 30s per post     | ~15s average        |
-| **AI Classification**   | > 95% accuracy     | 97.3% measured      |
-| **Duplicate Detection** | > 99% precision    | 99.7% measured      |
-| **System Uptime**       | > 99.5%            | 99.9% achieved      |
-| **API Response Time**   | < 200ms            | 125ms average       |
-
-### Monitoring & Logging
-
-- **Error Tracking**: Comprehensive exception logging with stack traces
-- **Performance Monitoring**: Execution time tracking for optimization
-- **API Metrics**: Request/response monitoring with success rates
-- **Resource Usage**: Memory and CPU utilization tracking
-
----
-
-## Security & Compliance
-
-### Data Protection Measures
-
-| Security Feature          | Implementation                                         |
-| ------------------------- | ------------------------------------------------------ |
-| **Environment Variables** | Sensitive data isolation with `.env` configuration     |
-| **Session Management**    | Secure Instagram authentication with token persistence |
-| **API Key Rotation**      | Multiple key management with automatic failover        |
-| **Database Security**     | MongoDB Atlas with encryption at rest and in transit   |
-| **Rate Limiting**         | Intelligent throttling to prevent service abuse        |
-
-### Compliance Standards
-
-- **GDPR Compliance**: No personal data retention beyond processing requirements
-- **Instagram ToS**: Respectful API usage with appropriate delays
-- **Data Minimization**: Only event-relevant data extraction and storage
-
----
-
-## Contribution & Development Workflow
-
-This project follows professional development standards with comprehensive testing and review processes.
 
 ### Development Guidelines
 
