@@ -6,9 +6,9 @@
 
   <h1 align="center">IEEE MSIT Event Automation System</h1>
   <p align="center">
-    Intelligent Instagram Post Scraping & Event Classification Pipeline
+    Instagram Post Scraping & Event Classification Pipeline
     <br />
-    A fully autonomous event management system with AI-powered content analysis, engineered by the IEEE MSIT Development Team.
+    An autonomous event management system with AI-powered content analysis, engineered by the IEEE MSIT Development Team.
   </p>
 
   <p align="center">
@@ -31,11 +31,11 @@
 
 ---
 
-## 🚀 System Overview
+## System Overview
 
 This revolutionary automation system eliminates the need for manual administrative oversight by autonomously scraping, analyzing, and classifying Instagram posts from IEEE MSIT's official account. The system intelligently distinguishes between events and achievements, generates structured JSON metadata using advanced AI models, implements robust duplicate detection mechanisms, and seamlessly integrates with frontend applications for dynamic content rendering.
 
-### 🎯 Core Automation Pipeline
+### Core Automation Pipeline
 
 The system operates on a **daily cron schedule**, ensuring continuous content synchronization without human intervention:
 
@@ -66,7 +66,7 @@ This system leverages cutting-edge technologies to deliver enterprise-grade auto
 
 ---
 
-## 🧠 AI-Powered Event Classification
+## AI-Powered Event Classification
 
 ### Intelligent Content Analysis Engine
 
@@ -104,7 +104,7 @@ interface EventInfo {
 
 ---
 
-## 🔄 Automated Workflow Architecture
+## Automated Workflow Architecture
 
 ### Daily Execution Pipeline
 
@@ -175,7 +175,7 @@ class APIKeyManager:
 
 ---
 
-## 🚀 Getting Started: Development Setup
+## Getting Started: Development Setup
 
 ### Prerequisites
 
@@ -263,7 +263,7 @@ Ensure you have the following installed on your development machine:
 
 ---
 
-## 📊 API Documentation & Integration
+## API Documentation & Integration
 
 ### Primary Endpoint: Event Analysis
 
@@ -313,7 +313,7 @@ For frontend applications consuming this API:
 
 ---
 
-## 🔄 Automated Deployment & Scheduling
+## Automated Deployment & Scheduling
 
 ### Cron Job Configuration
 
@@ -327,10 +327,6 @@ For production deployment, configure the system to run daily:
 0 6 * * 1 /path/to/venv/bin/python /path/to/ieee-automation/working.py
 ```
 
-### Docker Deployment
-
-```dockerfile
-FROM python:3.11-slim
 
 WORKDIR /app
 COPY requirements.txt .
@@ -349,7 +345,7 @@ CMD ["uvicorn", "app.app:app", "--host", "0.0.0.0", "--port", "8000"]
 
 ---
 
-## 🔍 System Performance & Monitoring
+## System Performance & Monitoring
 
 ### Performance Metrics
 
@@ -370,7 +366,7 @@ CMD ["uvicorn", "app.app:app", "--host", "0.0.0.0", "--port", "8000"]
 
 ---
 
-## 🛡️ Security & Compliance
+## Security & Compliance
 
 ### Data Protection Measures
 
@@ -390,7 +386,7 @@ CMD ["uvicorn", "app.app:app", "--host", "0.0.0.0", "--port", "8000"]
 
 ---
 
-## 🤝 Contribution & Development Workflow
+## Contribution & Development Workflow
 
 This project follows professional development standards with comprehensive testing and review processes.
 
@@ -444,7 +440,7 @@ This project follows professional development standards with comprehensive testi
 
 ---
 
-## 🌐 Connect With IEEE MSIT
+## Connect With IEEE MSIT
 
 Stay connected with IEEE MSIT's innovation and automation initiatives:
 
@@ -455,14 +451,14 @@ Stay connected with IEEE MSIT's innovation and automation initiatives:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-IEEE%20MSIT-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/ieeemsit)
 [![Twitter](https://img.shields.io/badge/Twitter-@ieeemsit-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/ieeemsit)
 
-**📧 Contact**: [anupama@msit.in](mailto:anupama@msit.in) | **📞 Phone**: +91-11-2681-4816  
-**🌐 Website**: [ieeemsit.vercel.app](https://ieeemsit.vercel.app)
+**Contact**: [anupama@msit.in](mailto:anupama@msit.in) | **Phone**: +91-11-2681-4816  
+**Website**: [ieeemsit.vercel.app](https://ieeemsit.vercel.app)
 
 </div>
 
 ---
 
-## 👥 Development Team
+## Development Team
 
 Meet the engineering team behind this automation revolution:
 
@@ -470,11 +466,11 @@ Meet the engineering team behind this automation revolution:
 <tr>
 <td align="center">
   <a href="https://github.com/AneeshAhuja31">
-    <img src="https://avatars.githubusercontent.com/u/AneeshAhuja31?v=4" width="100px;" alt="Aneesh Ahuja"/>
+    <img src="https://avatars.githubusercontent.com/u/148528080?v=4" width="100px;" alt="Aneesh Ahuja"/>
     <br />
     <sub><b>Aneesh Ahuja</b></sub>
     <br />
-    <sub><b>Lead Developer</b></sub>
+    <sub><b>PR Lead RAS</b></sub>
   </a>
 </td>
 <td align="center">
@@ -491,7 +487,7 @@ Meet the engineering team behind this automation revolution:
 
 ---
 
-## 📈 Future Roadmap
+## Future Roadmap
 
 ### Upcoming Enhancements
 
@@ -511,18 +507,4 @@ Meet the engineering team behind this automation revolution:
 
 ---
 
-## 📄 License & Legal
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for comprehensive legal details.
-
-**Disclaimer**: This automation system is designed for legitimate educational and organizational purposes. Users must comply with Instagram's Terms of Service and applicable data protection regulations.
-
----
-
-<div align="center">
-
-**🚀 Revolutionizing Event Management Through AI Automation 🚀**
-
-_Engineered with precision by IEEE MSIT Development Team_
-
-</div>
